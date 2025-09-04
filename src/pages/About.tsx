@@ -15,7 +15,7 @@ const About = () => {
     languages: [
       { name: "Java", level: 90 },
       { name: "JavaScript", level: 85 },
-      { name: "Python", level: 80 },
+      { name: "C", level: 80 },
       { name: "SQL", level: 85 },
       { name: "Solidity", level: 70 },
     ],
