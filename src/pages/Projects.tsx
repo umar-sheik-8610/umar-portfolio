@@ -9,6 +9,7 @@ import {
   Coins,
   MessageCircle,
 } from "lucide-react";
+import mailIcon from "../assets/mail-icon.png";
 
 const Projects = () => {
   const projects = [
@@ -142,7 +143,7 @@ const Projects = () => {
       title: "Smart Email Assistant",
       description:
         "A full-stack email assistant application built with React, Spring Boot, and Gemini API, designed to generate AI-powered email replies with seamless Gmail integration.",
-      image: "/mail icon.png",
+      image: mailIcon,
       tech: [
         "React.js",
         "Spring Boot",
