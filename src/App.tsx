@@ -10,7 +10,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/umar-portfolio">
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-emerald-50">
         <Navbar />
         <motion.main
