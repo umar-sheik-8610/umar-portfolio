@@ -19,6 +19,8 @@ import {
   Sparkles,
   Smartphone,
   MessageCircle,
+  Server,
+  Code2,
 } from "lucide-react";
 
 const Home = () => {
@@ -56,6 +58,16 @@ const Home = () => {
 
   // Tech stack items
   const techStack = [
+    {
+      name: "Spring Boot",
+      icon: <Server className="h-5 w-5" />,
+      color: "bg-teal-100 text-teal-600",
+    },
+    {
+      name: "Java Full Stack",
+      icon: <Code2 className="h-5 w-5" />,
+      color: "bg-indigo-100 text-indigo-600",
+    },
     {
       name: "React",
       icon: <Layers className="h-5 w-5" />,

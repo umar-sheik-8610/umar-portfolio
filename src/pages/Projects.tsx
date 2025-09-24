@@ -138,6 +138,30 @@ const Projects = () => {
       demoLink:
         "https://codesandbox.io/p/sandbox/twitter-dapp-exercise-forked-mvl2rg",
     },
+    {
+  title: "Smart Email Assistant",
+  description:
+    "A full-stack email assistant application built with React, Spring Boot, and Gemini API, designed to generate AI-powered email replies with seamless Gmail integration.",
+  image:
+    "https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&w=800",
+  tech: ["React.js", "Spring Boot", "REST API", "Material UI", "Gemini API"],
+  features: [
+    "AI-powered email reply generation using Gemini API",
+    "Seamless integration with Gmail via Chrome extension",
+    "Responsive Material UI interface for smooth user experience",
+    "Efficient REST APIs for email processing",
+    "Full-stack architecture with maintainable codebase",
+  ],
+  status: "Completed",
+  period: "Mar 2025",
+  icon: <Globe className="h-6 w-6" />,
+  color: "from-indigo-500 to-blue-500",
+  codeLink:
+    "https://github.com/umar-sheik-8610/smart-email-assistant", // replace with your repo link
+  demoLink:
+    "https://umar-sheik-8610.github.io/smart-email-assistant", // replace with your live demo link if deployed
+},
+
   ];
 
   const containerVariants = {

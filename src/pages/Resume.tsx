@@ -5,7 +5,7 @@ const Resume = () => {
   const handleDownload = () => {
     // Create a link to download the PDF
     const link = document.createElement("a");
-    link.href = "/Umar Sheik ATS.pdf";
+    link.href = "/Umar_Resume.pdf";
     link.download = "Umar_Sheik_Resume.pdf";
     document.body.appendChild(link);
     link.click();
